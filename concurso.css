@@ -1,3 +1,53 @@
+nav {
+    background: #00640500;
+    backdrop-filter: blur(2px);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+}
+
+nav ul {
+    float: left;
+    margin-right: 20px;
+    
+}
+
+ul a {
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 35px;
+}
+
+a.active, a:hover {
+    background: #b3b6b35b;
+    transition: 0.3s;
+}
+
+nav ul li a {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 15px;
+    border-width: thick;
+    text-transform: uppercase;
+}
+
+#logo {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
 #cabecario {
 font-size: 50px;
 font-family: sans-serif;
