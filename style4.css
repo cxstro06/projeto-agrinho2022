@@ -1,0 +1,114 @@
+body {
+    background: rgb(15,122,0);
+    background: linear-gradient(90deg, rgb(12, 99, 0) 0%, rgba(2,222,0,1) 50%, rgb(0, 105, 11) 100%);
+    color: #ffffff;
+}
+
+
+nav {
+    background: #00640500;
+    backdrop-filter: blur(2px);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+}
+
+nav ul {
+    float: left;
+    margin-right: 20px;
+    
+}
+
+ul a {
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 35px;
+}
+
+a.active, a:hover {
+    background: #b3b6b35b;
+    transition: 0.3s;
+}
+
+nav ul li a {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 15px;
+    border-width: thick;
+    text-transform: uppercase;
+}
+
+#logo {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#cabecario {
+font-size: 50px;
+font-family: sans-serif;
+background-image: url("https://cxstro06.github.io/projeto-agrinho2022/bannerr.png");
+color: #ffffff;
+padding: 200px 30px 30px 30px;
+}
+
+#cabecario h1 {
+padding-bottom: 40px;
+
+}
+
+#oque-e {
+    font-family: sans-serif;
+    margin: 60px;
+}
+
+#oque-e h1 {
+    font-size: 33px;
+    padding-bottom: 20px;
+}
+
+#oque-e p {
+    font-size: 22px;
+    max-width: 45ch;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    
+}
+
+#como-funciona {
+    font-family: sans-serif;
+    margin: 60px;
+}
+
+#como-funciona h1 {
+    font-size: 33px;
+    padding-bottom: 20px;
+}
+
+#como-funciona p {
+    font-size: 22px;
+    max-width: 45ch;
+    font-size: 1.5em;
+    line-height: 1.25em;
+}
+
+#bio {
+    width: 45% ;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -16em;
+    border-radius: 3px;
+    
+
+}
