@@ -1,0 +1,49 @@
+body div {
+    font-family: sans-serif;
+}
+
+#home {
+    max-width:80ch;
+    line-height: 1.25em;
+    text-align: left;
+    position: absolute;
+     top: 50vh;
+     left: 50vh;
+}
+
+#home h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+#home h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#home section{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.botao {
+padding: 15px 30px;
+width: 100px;
+color: #ffffff;
+background: #910191;
+border: 1px #555555;
+border-radius: 4px;
+text-align: center;
+font-size: 18px;
+user-select: none;
+cursor: pointer;
+font-family: sans-serif;
+font-weight: bold;
+text-decoration: none;
+}
+
+.botao:hover {
+    background: #b401b4;
+    transition: background 500ms ;
+    
+}
