@@ -1,3 +1,7 @@
+body {
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+
 nav {
     background: #00640500;
     backdrop-filter: blur(2px);
